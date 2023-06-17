@@ -12,21 +12,12 @@ use App\Http\Requests\UpdateReservationRequest;
 
 class ReservationController extends Controller
 {
-    public function pickRestaurant()
-    {
-        $user = Auth::user();
-        $restaurants = Restaurant::all();
-
-        return view('reservations.pick-restaurant', compact('restaurants', 'user'));
-    }
-
     public function chooseRestaurant()
     {
         // Ambil daftar restaurant dari database
         $restaurants = Restaurant::all();
 
-        // Tampilkan daftar restaurant kepada pengguna
-        // Implementasikan tampilan HTML di sini
+        return view('choose-restaurant', compact('restaurants'));
     }
 
     public function chooseTable($restaurantId)
@@ -37,17 +28,7 @@ class ReservationController extends Controller
         // Ambil daftar table berdasarkan restaurant ID
         $tables = Table::where('restaurant_id', $restaurantId)->get();
 
-        // Tampilkan daftar table kepada pengguna
-        // Implementasikan tampilan HTML di sini
-    }
-
-    public function pickTable()
-    {
-        $user = Auth::user();
-        $restaurant = $user->selectedRestaurant;
-        $tables = $restaurant->tables;
-
-        return view('reservations.pick-table', compact('tables', 'user', 'restaurant'));
+        return view('choose-table', compact('restaurant', 'tables'));
     }
 
     public function makeReservation(Request $request)
@@ -69,7 +50,12 @@ class ReservationController extends Controller
         $reservation->table_id = $tableId;
         $reservation->save();
 
-        // Berikan feedback atau redirect pengguna ke halaman yang sesuai
-        // ...
+        return redirect()->route('reservation-success');
+    }
+
+    public function reservationSuccess()
+    {
+        // Tampilkan halaman sukses reservasi
+        return view('reservation-success');
     }
 }
