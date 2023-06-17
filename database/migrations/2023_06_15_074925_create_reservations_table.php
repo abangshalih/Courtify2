@@ -12,27 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('reservations', function (Blueprint $table) {
-            $table->id();
-            // $table->string('name');
-            $table->unsignedBigInteger('user_id');
-            $table->unsignedBigInteger('restaurant_id');
-            $table->unsignedBigInteger('table_id');
+            $table->increments('id');
+            $table->integer('user_id')->unsigned();
+            $table->integer('restaurant_id')->unsigned();
+            $table->integer('table_id')->unsigned();
             $table->timestamps();
 
-            $table->foreign('user_id')
-                ->references('id')
-                ->on('users')
-                ->onDelete('cascade');
-
-            $table->foreign('restaurant_id')
-                ->references('id')
-                ->on('restaurants')
-                ->onDelete('cascade');
-
-            $table->foreign('table_id')
-                ->references('id')
-                ->on('tables')
-                ->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('restaurant_id')->references('id')->on('restaurants')->onDelete('cascade');
+            $table->foreign('table_id')->references('id')->on('tables')->onDelete('cascade');
         });
     }
 

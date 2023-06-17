@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Table;
 use App\Models\Restaurant;
 use App\Models\Reservation;
 use Illuminate\Http\Request;
@@ -19,17 +20,25 @@ class ReservationController extends Controller
         return view('reservations.pick-restaurant', compact('restaurants', 'user'));
     }
 
-    public function storeRestaurant(Request $request)
+    public function chooseRestaurant()
     {
-        $validatedData = $request->validate([
-            'restaurant_id' => 'required',
-        ]);
+        // Ambil daftar restaurant dari database
+        $restaurants = Restaurant::all();
 
-        $user = Auth::user();
-        $user->selectedRestaurant()->associate($validatedData['restaurant_id']);
-        $user->save();
+        // Tampilkan daftar restaurant kepada pengguna
+        // Implementasikan tampilan HTML di sini
+    }
 
-        return redirect()->route('reservations.pick-table');
+    public function chooseTable($restaurantId)
+    {
+        // Ambil restaurant berdasarkan ID
+        $restaurant = Restaurant::findOrFail($restaurantId);
+
+        // Ambil daftar table berdasarkan restaurant ID
+        $tables = Table::where('restaurant_id', $restaurantId)->get();
+
+        // Tampilkan daftar table kepada pengguna
+        // Implementasikan tampilan HTML di sini
     }
 
     public function pickTable()
@@ -41,27 +50,26 @@ class ReservationController extends Controller
         return view('reservations.pick-table', compact('tables', 'user', 'restaurant'));
     }
 
-    public function storeTable(Request $request)
+    public function makeReservation(Request $request)
     {
-        $validatedData = $request->validate([
-            'table_id' => 'required',
-        ]);
+        // Ambil user_id dari pengguna yang sedang login
+        $userId = Auth::id();
 
-        $user = Auth::user();
-        $restaurant = $user->selectedRestaurant;
+        // Ambil input dari form yang dikirim oleh pengguna
+        $restaurantId = $request->input('restaurant_id');
+        $tableId = $request->input('table_id');
 
+        // Lakukan validasi atau manipulasi data jika diperlukan
+        // ...
+
+        // Simpan data reservasi ke dalam tabel "reservations"
         $reservation = new Reservation();
-        $reservation->user_id = $user->id;
-        $reservation->restaurant_id = $restaurant->id;
-        $reservation->table_id = $validatedData['table_id'];
+        $reservation->user_id = $userId;
+        $reservation->restaurant_id = $restaurantId;
+        $reservation->table_id = $tableId;
         $reservation->save();
 
-        return redirect()->route('reservations.show', $reservation->id);
-    }
-
-    public function show(Reservation $reservation)
-    {
-        // You can customize the show method as per your requirements
-        return view('reservations.show', compact('reservation'));
+        // Berikan feedback atau redirect pengguna ke halaman yang sesuai
+        // ...
     }
 }
