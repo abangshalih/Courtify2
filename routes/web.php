@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,8 +19,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/login', [AuthController::class, 'login'])->name('login');
-// Route untuk proses login
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'login']);
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/choose-restaurant', [ReservationController::class, 'chooseRestaurant'])->name('choose-restaurant');
@@ -205,12 +206,8 @@ Route:: get('/howwasthefood', function()
 
 
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('loginpagevendor','RegisterController@index'); 
+// Route::get('loginpagevendor','RegisterController@index'); 
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
