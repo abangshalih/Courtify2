@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\Auth\LoginController2;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +20,11 @@ use App\Http\Controllers\Auth\LoginController;
 //     return view('welcome');
 // });
 
-Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
-Route::post('/login', [LoginController::class, 'login']);
+Route::get('/login', [LoginController2::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController2::class, 'login']);
+
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [RegisterController::class, 'register']);
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/choose-restaurant', [ReservationController::class, 'chooseRestaurant'])->name('choose-restaurant');
