@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+font-style: normal;
+    
+}
+
+.iconnama img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 51px;
+    top: 0px;
+    
+
+}
+
+.iconnama h1{
+position: absolute;
+width: 290px;
+height: 16px;
+left: 175px;
+top: 67px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+}
+
+.box1{
+    position: absolute;
+    background-color:var(--second-color);
+    width: 1700px;
+    height: 160px;
+    left: 95px;
+    top: 143px;
+    border-radius: 15px;
+}
+
+.box1 h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 10;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+.box1 h2{
+    position: absolute;
+    top: 56px;
+    left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+.box1 h3{
+    position: absolute;
+    top: 95px;
+    left: 23px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.box1 a{
+    position: absolute;
+    top: 95px;
+    left: 182px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+color: #FFD336;
+}
+
+.gambar1 img{
+    position: absolute;
+    height: 170px;
+    top: 330px;
+    left: 300px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar1 h1{
+    position: absolute;
+    height: 170px;
+    top: 510px;
+    left: 370px;
+    color: black;
+}
+
+.gambar1 a{
+    color: black;
+}
+
+.gambar2 img{
+    position: absolute;
+    height: 170px;
+    top: 330px;
+    left: 550px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar2 h1{
+    position: absolute;
+    height: 170px;
+    top: 510px;
+    left: 620px;
+    color: black;
+}
+
+.gambar2 a{
+    color: black;
+}
+
+.gambar3 img{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: 330px;
+    left: 800px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar3 h1{
+    position: absolute;
+    height: 170px;
+    top: 510px;
+    left: 880px;
+    color: black;
+}
+
+.gambar3 a{
+    color: black;
+}
+
+.gambar4 img{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: 330px;
+    left: 1050px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar4 h1{
+    position: absolute;
+    height: 170px;
+    top: 510px;
+    left: 1130px;
+    color: black;
+}
+
+.gambar4 a{
+    color: black;
+}
+
+.gambar5 img{
+    position: absolute;
+    height: 170px;
+    width: 180px;
+    top: 330px;
+    left: 1300px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar5 h1{
+    position: absolute;
+    height: 170px;
+    top: 510px;
+    left: 1380px;
+    color: black;
+}
+
+.gambar5 a{
+    color: black;
+}
+
+.gambar6 img{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: 580px;
+    left: 300px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar6 h1{
+    position: absolute;
+    height: 170px;
+    top: 760px;
+    left: 370px;
+    color: black;
+}
+
+.gambar6 a{
+    color: black;
+}
+
+.gambar7 img{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: 580px;
+    left: 550px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar7 h1{
+    position: absolute;
+    height: 170px;
+    top: 760px;
+    left: 620px;
+    color: black;
+}
+
+.gambar7 a{
+    color: black;
+}
+
+.gambar8 img{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: 580px;
+    left: 800px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar8 h1{
+    position: absolute;
+    height: 170px;
+    top: 760px;
+    left: 880px;
+    color: black;
+}
+
+.gambar8 a{
+    color: black;
+}
+
+.lihat h1{
+    position: absolute;
+    top: 900px;
+    left: 600px;
+    width: 700px;
+    height: 55px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+    background-color: #FF6060;
+}
+
+.lihat a{
+    color: white;
+}

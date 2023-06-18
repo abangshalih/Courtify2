@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: #FFFFFF;
+}
+
+.iconcourtify{
+    width: auto;
+    height: auto;
+    display: block;
+    top: 70px;
+    left: 800px;
+    position: absolute;
+    
+}
+
+.email input{
+    border-radius: 5px;
+    width: 440px;
+    height: 60px;
+    position: absolute;
+    top: 400px;
+    left: 730px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+}
+
+.password input{
+    border-radius: 5px;
+    width: 440px;
+    height: 60px;
+    position: absolute;
+    top: 500px;
+    left: 730px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+}
+
+.signup button{
+    width: 200px;
+    height: 50px;
+    top: 600px;
+    left: 730px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #FF6060;
+    border-radius: 14px;
+}
+
+.signin button{
+    width: 200px;
+    height: 50px;
+    top: 600px;
+    left: 980px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 14px;
+}
+

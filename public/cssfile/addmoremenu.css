@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+font-style: normal;
+    
+}
+
+.addmore{
+    width: 1920px;
+    height: 120px;
+    position: absolute;
+    background-color: #ffd336;
+}
+
+.addmore h1{
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    font-size: medium;
+
+}
+
+.addmore img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    left: 20px;
+
+}
+
+.menuname h1{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-size:x-large;
+
+
+}
+
+.menuname input{
+    position: absolute;
+    width: 1750px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    top: 210px;
+    left: 100px;
+}
+
+.desc h1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size:x-large;
+
+
+}
+
+.desc input{
+    position: absolute;
+    width: 1750px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    top: 337px;
+    left: 100px;
+}
+
+.price h1{
+    position: absolute;
+    top: 420px;
+    left: 100px;
+    font-size:x-large;
+
+
+}
+
+.price input{
+    position: absolute;
+    width: 1750px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    top: 457px;
+    left: 100px;
+}
+
+.pict h1{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    font-size:x-large;
+
+
+}
+
+.pict input{
+    position: absolute;
+    width: 1750px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    top: 607px;
+    left: 100px;
+    padding-top: 15px;
+    padding-left: 770px;
+
+}
+
+.finish button{
+    position: absolute;
+    width: 1750px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    top: 907px;
+    left: 100px;
+    background-color: #FF6060;
+    color: white;
+  
+
+}
+
+

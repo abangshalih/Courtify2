@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+    --main-font : 'https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap';
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+       
+}
+
+.back{
+    width: 1920px;
+    height: 100px;
+    background-color: #ffd336;
+
+}
+
+.tulisanback img{
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    left: 20px;
+
+}
+
+.tulisanback h1{
+    position: absolute;
+    top: 28px;
+    left: 80px;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    
+    
+
+}
+
+.allreviews{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: small;
+}
+
+.allreviews h1{
+    position: absolute;
+    top: 125px;
+    left: 25px;
+}
+
+.dropdown h1{
+    position: absolute;
+    top: 180px;
+    left: 25px;
+    font-size: medium;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 1860px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.dropdown img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 182px;
+    left: 1820px;
+}
+
+.dropdown2{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 2px 16px;
+  z-index: 1;
+  top: 211px;
+  left: 25px;
+  font-size: medium;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: lightgrey;
+  width: 1860px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Inter';
+    font-style: bold;
+    font-size: small;
+
+}
+
+.dropdown:hover .dropdown2{
+  display: block;
+}
+
+.dropdown2 a{
+    color: black;
+    font-size: medium;
+    
+}
+
+.hr{
+    width: 1820px;
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+
+.jer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: small;
+}
+
+
+.jer h1{
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    font-size: small;
+}
+
+.jer h2{
+    position: absolute;
+    top: 340px;
+    left: 170px;
+    font-size: medium;
+}
+
+.jer h3{
+    position: absolute;
+    top: 300px;
+    font-size: small;
+    left: 1700px;
+}
+
+.jer img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 285px;
+    left: 120px;
+}
+
+.bintang1 img{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 305px;
+    left: 165px;
+}
+
+.joy{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: small;
+}
+
+
+.joy h1{
+    position: absolute;
+    top: 400px;
+    left: 170px;
+    font-size: small;
+}
+
+.joy h2{
+    position: absolute;
+    top: 440px;
+    left: 170px;
+    font-size: medium;
+}
+
+.joy h3{
+    position: absolute;
+    top: 400px;
+    font-size: small;
+    left: 1700px;
+}
+
+.joy img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 385px;
+    left: 120px;
+}
+
+.bintang2 img{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 405px;
+    left: 165px;
+}
+
+.ray{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: small;
+}
+
+
+.ray h1{
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    font-size: small;
+}
+
+.ray h2{
+    position: absolute;
+    top: 540px;
+    left: 170px;
+    font-size: medium;
+}
+
+.ray h3{
+    position: absolute;
+    top: 500px;
+    font-size: small;
+    left: 1700px;
+}
+
+.ray img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 485px;
+    left: 120px;
+}
+
+.bintang3 img{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 505px;
+    left: 165px;
+}
+
+.tir{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: small;
+}
+
+
+.tir h1{
+    position: absolute;
+    top: 600px;
+    left: 170px;
+    font-size: small;
+}
+
+.tir h2{
+    position: absolute;
+    top: 640px;
+    left: 170px;
+    font-size: medium;
+}
+
+.tir h3{
+    position: absolute;
+    top: 600px;
+    font-size: small;
+    left: 1700px;
+}
+
+.tir img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 585px;
+    left: 120px;
+}
+
+.bintang4 img{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 605px;
+    left: 165px;
+}
+
+.ani{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: small;
+}
+
+
+.ani h1{
+    position: absolute;
+    top: 700px;
+    left: 170px;
+    font-size: small;
+}
+
+.ani h2{
+    position: absolute;
+    top: 740px;
+    left: 170px;
+    font-size: medium;
+}
+
+.ani h3{
+    position: absolute;
+    top: 700px;
+    font-size: small;
+    left: 1700px;
+}
+
+.ani img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 685px;
+    left: 120px;
+}
+
+.bintang5 img{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 705px;
+    left: 165px;
+}

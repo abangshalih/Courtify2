@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+font-style: normal;
+    
+}
+
+.iconnama img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 51px;
+    top: 0px;
+    
+
+}
+
+.iconnama h1{
+position: absolute;
+width: 290px;
+height: 16px;
+left: 175px;
+top: 67px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+}
+
+.box1{
+    position: absolute;
+    background-color:var(--second-color);
+    width: 1700px;
+    height: 160px;
+    left: 95px;
+    top: 143px;
+    border-radius: 15px;
+}
+
+.box1 h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 10;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+.box1 h2{
+    position: absolute;
+    top: 56px;
+    left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+.box1 h3{
+    position: absolute;
+    top: 95px;
+    left: 23px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.box1 a{
+    position: absolute;
+    top: 95px;
+    left: 182px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+color: #FFD336;
+}
+
+.yourbooth h1{
+    position: absolute;
+    font-size: 37px;
+    width: 400px;
+    top: 340px;
+    left: 100px;
+}
+
+.gambar1 img{
+    position: absolute;
+    height: 170px;
+    top: 430px;
+    left: 100px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar1 h1{
+    position: absolute;
+    height: 170px;
+    top: 610px;
+    left: 170px;
+    color: black;
+}
+
+.gambar1 a{
+    color: black;
+}
+
+.gambar2 img{
+    position: absolute;
+    height: 170px;
+    top: 430px;
+    left: 350px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+.gambar2 h1{
+    position: absolute;
+    height: 170px;
+    top: 610px;
+    left: 420px;
+    color: black;
+}
+
+.gambar2 a{
+    color: black;
+}
+

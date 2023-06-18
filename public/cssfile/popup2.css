@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+font-style: normal;
+    
+}
+
+.offer h1{
+    position: absolute;
+    width: 500px;
+    top: 50px;
+    left: 820px;
+    font-size: 35px;
+}
+
+.areusure{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    left: 685px;
+    border-style: solid;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.areusure h1{
+    position: absolute;
+    width: 370px;
+    top: 150px;
+    left: 70px;
+}
+
+.areusure h2{
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    width: 100px;
+    font-size: 29px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #FF6060;
+    border-color: white;
+
+
+}
+
+.areusure h3{
+    position: absolute;
+    top: 270px;
+    left: 280px;
+    width: 100px;
+    font-size: 29px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: black;
+    border-color: white;
+
+
+}
+
+.areusure a{
+   color: white;
+
+
+}

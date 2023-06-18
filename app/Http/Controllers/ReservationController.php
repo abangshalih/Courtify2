@@ -31,6 +31,50 @@ class ReservationController extends Controller
         return view('choose-table', compact('restaurant', 'tables'));
     }
 
+    public function chooseMenu($restaurantId, $tableId)
+    {
+        // Ambil restaurant berdasarkan ID
+        $restaurant = Restaurant::findOrFail($restaurantId);
+
+        // Ambil table berdasarkan ID
+        $table = Table::findOrFail($tableId);
+
+        return view('choose-menu', compact('restaurant', 'table'));
+    }
+
+    public function cart($restaurantId, $tableId)
+    {
+        // Ambil restaurant berdasarkan ID
+        $restaurant = Restaurant::findOrFail($restaurantId);
+
+        // Ambil table berdasarkan ID
+        $table = Table::findOrFail($tableId);
+
+        return view('cart', compact('restaurant', 'table'));
+    }
+
+    public function checkout($restaurantId, $tableId)
+    {
+        // Ambil restaurant berdasarkan ID
+        $restaurant = Restaurant::findOrFail($restaurantId);
+
+        // Ambil table berdasarkan ID
+        $table = Table::findOrFail($tableId);
+
+        return view('checkout', compact('restaurant', 'table'));
+    }
+
+    public function payment($restaurantId, $tableId)
+    {
+        // Ambil restaurant berdasarkan ID
+        $restaurant = Restaurant::findOrFail($restaurantId);
+
+        // Ambil table berdasarkan ID
+        $table = Table::findOrFail($tableId);
+
+        return view('payment', compact('restaurant', 'table'));
+    }
+
     public function makeReservation(Request $request)
     {
         // Ambil user_id dari pengguna yang sedang login
@@ -50,7 +94,11 @@ class ReservationController extends Controller
         $reservation->table_id = $tableId;
         $reservation->save();
 
-        return redirect()->route('reservation-success');
+        return response()->json([
+            'success' => true,
+            'message' => 'Reservation created successfully',
+            'url' => route('reservation-success', $reservation->id)
+        ]);
     }
 
     public function reservationSuccess()

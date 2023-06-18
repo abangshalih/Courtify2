@@ -1,0 +1,90 @@
+.sign-in {
+  margin: 0;
+  position: absolute;
+  width: 43.59%;
+  top: 29.55%;
+  left: 29.06%;
+  font-weight: 700;
+  display: inline-block;
+}
+.courtify-logo2-1-icon,
+.sign-in-wrapper {
+  position: absolute;
+  right: 44.74%;
+  opacity: 0.75;
+}
+.sign-in-wrapper {
+  height: 4.07%;
+  width: 6.09%;
+  top: 57.59%;
+  bottom: 38.33%;
+  left: 49.17%;
+  border-radius: 15px;
+  background-color: var(--color-tomato);
+}
+.courtify-logo2-1-icon {
+  height: 18.52%;
+  width: 10.42%;
+  top: 20.56%;
+  bottom: 60.93%;
+  left: 44.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  width: 237px;
+  height: 304px;
+}
+.data-tidak-valid {
+  margin: 0;
+  position: absolute;
+  height: 12.74%;
+  width: 80.04%;
+  top: 87.26%;
+  left: 9.92%;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.warning-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 142.43px;
+  height: 136.86px;
+  object-fit: cover;
+}
+.data-tidak-valid-parent,
+.vector-parent {
+  position: absolute;
+  top: 74.04px;
+  left: 47.87px;
+  width: 142.43px;
+  height: 156.96px;
+}
+.vector-parent {
+  top: 340px;
+  left: 842px;
+  width: 237px;
+  height: 304px;
+  color: #ee404c;
+}
+.iphone-8-18 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

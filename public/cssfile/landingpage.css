@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+.iconnama img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 51px;
+    top: 0px;
+    
+
+}
+
+.iconnama h1{
+position: absolute;
+width: 290px;
+height: 16px;
+left: 175px;
+top: 67px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+}
+
+.box1{
+    position: absolute;
+    background-color:var(--second-color);
+    width: 1750px;
+    height: 160px;
+    left: 95px;
+    top: 143px;
+    border-radius: 15px;
+}
+
+.box1 h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 10;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+.box1 h2{
+    position: absolute;
+    top: 56px;
+    left: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 26px;
+color: #FFFFFF;
+
+}
+
+.box1 h3{
+    position: absolute;
+    top: 95px;
+    left: 23px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.box1 a{
+    position: absolute;
+    top: 95px;
+    left: 222px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+color: #FFD336;
+}
+
+.yourrestaurant{
+    position: absolute;
+    top: 330px;
+    left: 95px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 10;
+font-size: 18px;
+color: #454545;
+
+}
+
+.gambarayam img{
+    position: absolute;
+    top: 390px;
+    left: 95px;
+    width: 1750px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.warungpakhaji{
+    position: absolute;
+    width: 1650px;
+    height: 150px;
+    top: 550px;
+    left: 142px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.warungpakhaji img{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    height: 20px;
+
+}
+
+.warungpakhaji h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight:200;
+font-size: 36px;
+position: absolute;
+left: 50px;
+top: 35px;
+}
+
+.warungpakhaji h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight:200;
+font-size: 22px;
+position: absolute;
+left: 80px;
+top: 90px;
+    
+}
+
+.warungpakhaji h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight:200;
+font-size: 22px;
+position: absolute;
+left: 150px;
+top: 90px;
+color: #ADA7A7;
+}
+
+.warungpakhaji h4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight:200;
+font-size: 22px;
+position: absolute;
+left: 250px;
+top: 90px;
+
+}
+
+
+.review img{
+    position: absolute;
+    top: 750px;
+    left: 250px;
+    width: 180px;
+    height: 180px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.review h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight:200;
+font-size: 22px;
+position: absolute;
+    top: 940px;
+    left: 308px;
+}
+
+.review a{
+    color: black;
+}
+
+
+.yourmenu img{
+    position: absolute;
+    top: 750px;
+    left: 860px;
+    width: 180px;
+    height: 180px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.yourmenu h1{
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight:200;
+    font-size: 22px;
+    position: absolute;
+        top: 940px;
+        left: 893px;
+        color: black;
+    }
+
+.yourmenu a{
+    color: black;
+}
+
+
+.order img{
+    position: absolute;
+    top: 750px;
+    left: 1450px;
+    width: 180px;
+    height: 180px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.order h1{
+    font-family: 'Inter';
+   font-style: normal;
+   font-weight:200;
+   font-size: 22px;
+   position: absolute;
+       top: 940px;
+       left: 1513px;
+   }
+
+.order a{
+    color: black;
+}

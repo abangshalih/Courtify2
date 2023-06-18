@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+font-style: normal;
+background-color: #e8e8e8;
+    
+}
+
+.gmbr img{
+    position: absolute;
+    width:520px;
+    height:200px;
+}
+
+.gmbr1 img{
+    position: absolute;
+   width:520px;
+    height:200px;
+    left: 426px;
+}
+
+.gmbr2 img{
+    position: absolute;
+   width:520px;
+    height:200px;
+    left: 883px;
+}
+
+.gmbr3 img{
+    position: absolute;
+   width:520px;
+    height:200px;
+    left: 1398px;
+}
+
+.warungpakhaji{
+    background-color: #FFD336;
+    position: absolute;
+    width: 1700px;
+    height: 170px;
+    border-radius: 12px;
+    top: 150px;
+    left: 100px;
+}
+
+.warungpakhaji img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 90px;
+    left: 66px;
+    background-color: #FFD336;
+}
+
+.warungpakhaji h1{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    background-color: #FFD336;
+}
+
+.warungpakhaji h2{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-size: large;
+    background-color: #FFD336;
+    
+}
+
+.warungpakhaji h3{
+    position: absolute;
+    top: 89px;
+    left: 180px;
+    font-weight: 50;
+    background-color: #FFD336;
+}
+
+.makanan{
+    background-color:white;
+    position: absolute;
+    top: 400px;
+    width: 700px;
+    height: 100px;
+    border-radius: 12px;
+    left: 560px;
+    
+}
+
+.makanan img{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    border-radius: 12px;
+    left: 280px;
+    top: 40px;
+}
+
+.makanan h1{
+    background-color: white;
+    font-size: medium;
+    top: 20px;
+    text-align: center ;
+    top: 10px;
+    position: relative;
+    font-weight: 200;
+
+}
+
+.bntg2 img{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    border-radius: 12px;
+    left: 310px;
+    top: 40px;
+}
+
+
+.bntg3 img{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    border-radius: 12px;
+    left: 340px;
+    top: 40px;
+}
+
+.bntg4 img{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    border-radius: 12px;
+    left: 370px;
+    top: 40px;
+}
+
+.bntg5 img{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    border-radius: 12px;
+    left: 400px;
+    top: 40px;
+}
+
+.any{
+    position: absolute;
+    width: 1700px;
+    height: 170px;
+    background-color: white;
+    top: 600px;
+    left: 100px;
+    border-radius: 12px;
+    
+}
+
+.any h1{
+    font-size: large;
+    font-weight: 400;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    top: 20px;
+
+}
+
+.any input
+{position: absolute;
+    text-align: center;
+    top: 70px;
+    height: 50px;
+    width: 1550px;
+    left: 55px;
+    
+}
+
+.dongabangdon {
+    position: absolute;
+    top: 850px;
+    left: 550px;
+
+}
+
+.dongabangdon button{
+    position: relative;
+    width: 700px;
+    height: 70px;
+    background-color: #FF6060;
+}

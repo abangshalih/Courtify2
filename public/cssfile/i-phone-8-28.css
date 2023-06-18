@@ -1,0 +1,51 @@
+.iphone-8-28-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  position: absolute;
+  top: 967px;
+  left: 560px;
+  width: 800px;
+  height: 66px;
+}
+.done,
+.terima-kasih-telah {
+  position: absolute;
+  font-weight: 700;
+  display: inline-block;
+}
+.done {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 980px;
+  left: 906.58px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  width: 106.84px;
+}
+.terima-kasih-telah {
+  margin: 0;
+  top: 473px;
+  left: 153px;
+  font-size: inherit;
+  font-family: inherit;
+  width: 1548px;
+  height: 209px;
+}
+.iphone-8-28 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-tomato);
+  width: 100%;
+  height: 1080px;
+  overflow-x: auto;
+  text-align: center;
+  font-size: 75px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

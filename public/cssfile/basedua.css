@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=IM+Fell+Double+Pica&display=swap');
+
+:root{
+    --main-color :#F3F3F3;
+    --second-color : #FF6060;
+    --third-color : #D9D9D9;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: #FFFFFF;
+}
+
+.iconcourtify{
+    width: auto;
+    height: auto;
+    display: block;
+    top: 70px;
+    left: 800px;
+    position: absolute;
+    
+}
+
+.iconowner img{
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 600px;
+    position: absolute;
+    border-radius:10px;
+    background-color: #FF6060;
+}
+
+.iconowner h1{
+    font-family: 'Inter';
+    font-style: normal;
+    top: 510px;
+    left: 600px;
+    position: absolute;
+    font-size: auto;
+    color: black;
+}
+
+.iconowner a{
+    color: black;
+}
+
+.iconvendor img{
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 900px;
+    position: absolute;
+    border-radius:10px;
+    background-color: #FF6060;
+}
+
+.iconvendor h1{
+    font-family: 'Inter';
+    font-style: normal;
+    top: 510px;
+    left: 895px;
+    position: absolute;
+    font-size: auto;
+    color: black;
+}
+
+.iconvendor a{
+    color: black;
+}
+
+.iconcustomer img{
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 1200px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #FF6060;
+}
+
+.iconcustomer h1{
+    font-family: 'Inter';
+    font-style: normal;
+    top: 510px;
+    left: 1175px;
+    position: absolute;
+    font-size: auto;
+    color: black;
+}
+
+.iconcustomer a{
+    color:black;
+}

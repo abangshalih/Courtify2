@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:700,400,900,600");
+
+.iphone-8-15 {
+  align-items: flex-start;
+  background-color: var(--color-foreground);
+  border: 1px none;
+  display: flex;
+  gap: 58px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group1 {
+  height: 1080px;
+  margin-left: -269px;
+  margin-top: -45px;
+  position: relative;
+  width: 1961px;
+}
+
+.group-10-default {
+  align-items: flex-end;
+  display: flex;
+  height: 1080px;
+  justify-content: flex-end;
+  left: 41px;
+  min-width: 1920px;
+  padding: 0 0px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group {
+  height: 1119px;
+  margin-bottom: -391px;
+  position: relative;
+  width: 1414px;
+}
+
+.iphone-8-15 .rectangle {
+  background-color: var(--carnation);
+  border-radius: 9px;
+  height: 140px;
+  position: absolute;
+  width: 1410px;
+}
+
+.rectangle-14 {
+  left: 4px;
+  top: 0;
+}
+
+.kuliner-surabaya-food-court {
+  left: 324px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 625px;
+  white-space: nowrap;
+  width: 966px;
+}
+
+.tunjungan-plaza-6-food-court {
+  left: 282px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+  width: 1008px;
+}
+
+.tunjungan-plaza-5-food-court {
+  left: 282px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 233px;
+  white-space: nowrap;
+  width: 1008px;
+}
+
+.rectangle-17 {
+  left: 0;
+  top: 588px;
+}
+
+.rectangle-16 {
+  left: 0;
+  top: 392px;
+}
+
+.pakuwon-mall-food-court {
+  left: 361px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 429px;
+  white-space: nowrap;
+  width: 850px;
+}
+
+.rectangle-15 {
+  left: 4px;
+  top: 196px;
+}
+
+.vendor-1 {
+  height: 86px;
+  left: 387px;
+  object-fit: cover;
+  position: absolute;
+  top: 117px;
+  width: 86px;
+}
+
+.title {
+  left: 1137px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 202px;
+  width: 392px;
+}
+
+.arrow-9 {
+  height: 195px;
+  left: 0;
+  position: absolute;
+  top: 378px;
+  width: 81px;
+}
+
+.hello-zulfan-zidni {
+  left: 501px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 135px;
+}
+
+.x17952689171595156226-1 {
+  height: 89px;
+  margin-top: 46.08px;
+  width: 83px;
+}
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --color-background-bold: 
+  rgba(8, 8, 8, 1);
+    --color-background: 
+  rgba(19, 19, 19, 1);
+    --color-background-secondary: 
+  rgba(35, 35, 35, 1);
+    --tundora: 
+  rgba(69, 68, 68, 1);
+    --gravel: 
+  rgba(76, 76, 76, 0.62);
+    --gravel-2: 
+  rgba(76, 76, 76, 1);
+    --color-secondary: 
+  rgba(115, 115, 115, 1);
+    --stack: 
+  rgba(140, 140, 140, 1);
+    --salmon-pearl: 
+  rgba(238, 64, 76, 1);
+    --wild-sand: 
+  rgba(244, 244, 244, 1);
+    --red: 
+  rgba(255, 0, 0, 1);
+    --color-primary: 
+  rgba(255, 77, 77, 1);
+    --carnation: 
+  rgba(255, 96, 96, 1);
+    --bright-sun: 
+  rgba(255, 210, 54, 1);
+    --white-2: 
+  rgba(255, 255, 255, 0.922);
+    --color-foreground: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-xs: 20px;
+    --font-size-xs: 8px;
+    --font-size-s: 36px;
+    --font-size-l: 48px;
+    --font-size-xl: 55px;
+    --font-size-xxl: 14px;
+    --font-size-xxl: 16px;
+    --font-size-xxl: 64px;
+    --font-size-s2: 10px;
+    --font-size-m2: 11px;
+    --font-size-l2: 12px;
+    --font-size-xl2: 15px;
+    --font-size-xxxl2: 17px;
+    --font-size-headline-mobile: 40px;
+    --font-size-headline-tablet: 50px;
+    --font-size-headline-desktop: 80px;
+  
+    --font-headlines: "Anton";
+    --font-family-anton-regular: "Anton-Regular";
+    --font-icons: "icons-pack-Regular";
+    --font-family-inter: "Inter";
+    --font-text: "Work Sans";
+    --font-family-work_sans-extrabold: "Work Sans-ExtraBold";
+    --font-family-work_sans-light: "Work Sans-Light";
+    --font-family-work_sans-medium: "Work Sans-Medium";
+    --font-family-work_sans-regular: "Work Sans-Regular";
+  }
+  
+  
+  
+  .inter-semi-bold-tundora-10px {
+    color: var(--tundora);
+    font-family: var(--font-family-inter);
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .headline-tablet {
+    font-family: var(--font-headlines);
+    font-size: var(--font-size-headline-tablet);
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .text-small {
+    color: var(--color-foreground);
+    font-family: var(--font-text);
+    font-size: var(--font-size-s2);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .text-extra-small {
+    color: var(--color-foreground);
+    font-family: var(--font-text);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-semi-bold-white-16px {
+    color: var(--color-foreground);
+    font-family: var(--font-family-inter);
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .inter-bold-salmon-pearl-15px {
+    color: var(--salmon-pearl);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl2);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .subtitle-tablet2 {
+    color: var(--color-foreground);
+    font-family: var(--font-text);
+    font-size: var(--font-size-xxxl2);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .subtitle-tablet {
+    color: var(--color-foreground);
+    font-family: var(--font-text);
+    font-size: var(--font-size-xxl);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inter-normal-black-13px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .inter-bold-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .text-medium-primary {
+    color: var(--color-primary);
+    font-family: var(--font-text);
+    font-size: var(--font-size-m2);
+    font-weight: 300;
+    font-style: normal;
+  }
+  .inter-bold-gravel-15px {
+    color: var(--gravel-2);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl2);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .worksans-medium-white-16px {
+    color: var(--color-foreground);
+    font-family: var(--font-family-work_sans-medium);
+    font-size: var(--font-size-xxl);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .headline---tablet-50px {
+    font-family: var(--font-family-anton-regular);
+    font-size: var(--font-size-headline-tablet);
+    letter-spacing:…
+  }
